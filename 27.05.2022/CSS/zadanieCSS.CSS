@@ -1,0 +1,151 @@
+HTML {
+    background-color: rgb(80, 151, 91);
+}
+
+body {
+    font-family: tahoma, sans-serif;
+    font-size: 88%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* banner Overlay */
+
+.image-banner {
+    position: relative;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-discription {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgb(0, 0, 0, .5);
+    padding: 5px 10px;
+    
+}
+
+.container {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding-left: 40xp;
+    padding-right: 40xp;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 15px;
+    color: rgb(80, 151, 91);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin: 0;
+}
+
+/* Site Navigation */
+
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.site-nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(80, 151, 91);
+    padding: 10px 20px;
+    border: 3px solid rgb(213, 228, 206);
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color:rgb(213, 228, 206)
+}
+
+/*End Site Navigation*/
+
+.content-area {
+    border-top: 3px solid rgb(213, 228, 206);
+    border-bottom: 3px solid rgb(213, 228, 206);
+
+}
+
+.main-area {
+    width: 66%;
+    float: left;
+    padding-right: 40xp;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 34%;
+    float: right;
+    background-color: rgb(213, 228, 206);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding: */
+    box-sizing: border-box;
+    font-size: 85%;
+    
+    
+}
+
+footer {
+    text-align: center;
+    font-size: 85%;
+    color: rgba(161, 161, 161, 0.895);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+
+
+
+

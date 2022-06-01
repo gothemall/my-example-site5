@@ -1,0 +1,29 @@
+h1 {
+    font-size: 165%;
+    font-weight: normal;
+}
+
+body {
+    color: rgb(104, 101, 104);
+   
+}
+
+footer {
+    color: rgb(36, 105, 179);
+}
+
+.box-a {
+    background-color: lightskyblue;
+    padding: 30px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.box-b {
+    background-color: orange;
+    width: 250px;
+    height: 150px;
+}
